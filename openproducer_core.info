@@ -1,7 +1,7 @@
 name = OpenProducer Core
 core = 7.x
 package = OpenProducer
-version = 7.x-1.0-panels
+version = 7.x-1.0
 project = openproducer_core
 dependencies[] = block
 dependencies[] = context
@@ -52,9 +52,4 @@ features[variable][] = rules_event_whitelist
 features[variable][] = rules_linkevent
 
 
-; Information added by drush on 2014-04-01
-version = "7.x-1.x-dev"
-core = "7.x"
-project = "openproducer_core"
-datestamp = "1396340893"
 
