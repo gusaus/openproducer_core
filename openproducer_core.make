@@ -16,15 +16,6 @@ projects[colorbox][subdir] = contrib
 projects[context][version] = 3.2
 projects[context][subdir] = contrib
 
-projects[discogs][version] = 1.x-dev
-projects[discogs][subdir] = contrib
-
-projects[pushtape_discography_adpt][type] = "module"
-projects[pushtape_discography_adpt][download][type] = "git"
-projects[pushtape_discography_adpt][download][url] = "git://github.com/gusaus/pushtape_discography_adpt.git"
-projects[pushtape_discography_adpt][download][branch] = "7.x-1.x"
-projects[pushtape_discography_adpt][subdir] = contrib
-
 projects[entity_view_mode][version] = 1.0-rc1
 projects[entity_view_mode][subdir] = contrib
 
