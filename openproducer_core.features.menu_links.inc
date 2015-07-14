@@ -25,28 +25,7 @@ function openproducer_core_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 1,
     'expanded' => 0,
-    'weight' => 9,
-    'customized' => 0,
-  );
-  // Exported menu link: management_configuration:admin/config
-  $menu_links['management_configuration:admin/config'] = array(
-    'menu_name' => 'management',
-    'link_path' => 'admin/config',
-    'router_path' => 'admin/config',
-    'link_title' => 'Configuration',
-    'options' => array(
-      'attributes' => array(
-        'title' => 'Administer settings.',
-      ),
-      'alter' => TRUE,
-      'identifier' => 'management_configuration:admin/config',
-    ),
-    'module' => 'system',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 1,
-    'expanded' => 0,
-    'weight' => 38,
+    'weight' => -50,
     'customized' => 1,
   );
   // Exported menu link: management_content:admin/content
@@ -68,28 +47,6 @@ function openproducer_core_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -50,
-    'customized' => 1,
-    'parent_identifier' => 'management_administration:admin',
-  );
-  // Exported menu link: management_designer:designer
-  $menu_links['management_designer:designer'] = array(
-    'menu_name' => 'management',
-    'link_path' => 'designer',
-    'router_path' => 'designer',
-    'link_title' => 'Designer',
-    'options' => array(
-      'attributes' => array(
-        'title' => 'Switch into design mode',
-      ),
-      'alter' => TRUE,
-      'identifier' => 'management_designer:designer',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -44,
     'customized' => 1,
     'parent_identifier' => 'management_administration:admin',
   );
@@ -177,7 +134,7 @@ function openproducer_core_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 1,
     'expanded' => 0,
-    'weight' => 48,
+    'weight' => -48,
     'customized' => 1,
   );
   // Exported menu link: management_site-information:admin/config/system/site-information
@@ -201,27 +158,6 @@ function openproducer_core_menu_default_menu_links() {
     'weight' => -45,
     'customized' => 1,
     'parent_identifier' => 'management_administration:admin',
-  );
-  // Exported menu link: management_structure:admin/structure
-  $menu_links['management_structure:admin/structure'] = array(
-    'menu_name' => 'management',
-    'link_path' => 'admin/structure',
-    'router_path' => 'admin/structure',
-    'link_title' => 'Structure',
-    'options' => array(
-      'attributes' => array(
-        'title' => 'Administer blocks, content types, menus, etc.',
-      ),
-      'alter' => TRUE,
-      'identifier' => 'management_structure:admin/structure',
-    ),
-    'module' => 'system',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 1,
-    'expanded' => 0,
-    'weight' => 40,
-    'customized' => 1,
   );
   // Exported menu link: management_web-services:admin/config/services
   $menu_links['management_web-services:admin/config/services'] = array(
@@ -248,15 +184,12 @@ function openproducer_core_menu_default_menu_links() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Administration');
-  t('Configuration');
   t('Content');
-  t('Designer');
   t('Files');
   t('Main menu');
   t('Pages');
   t('Panopoly');
   t('Site information');
-  t('Structure');
   t('Web services');
 
 
