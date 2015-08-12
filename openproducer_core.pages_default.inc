@@ -161,50 +161,40 @@ function openproducer_core_default_page_manager_pages() {
   $display->content['new-fc4506c2-b0de-4780-b526-a394c6d06e35'] = $pane;
   $display->panels['column1'][0] = 'new-fc4506c2-b0de-4780-b526-a394c6d06e35';
   $pane = new stdClass();
-  $pane->pid = 'new-b4c65d69-2633-41dd-8df2-3b651a49564c';
+  $pane->pid = 'new-182ef8dc-f638-4434-b395-f0ab908ab4a4';
   $pane->panel = 'column2';
   $pane->type = 'views_panes';
   $pane->subtype = 'events-panel_pane_3';
   $pane->shown = TRUE;
   $pane->access = array();
   $pane->configuration = array(
+    'more_link' => 1,
     'items_per_page' => '3',
     'fields_override' => array(
       'title' => 1,
       'field_event_date' => 1,
       'field_event_venue' => 1,
-      'field_event_city' => 1,
-      'field_event_state' => 1,
+      'field_event_city' => 0,
+      'field_event_state' => 0,
+      'nothing' => 1,
     ),
-    'view_mode' => 'teaser',
-    'widget_title' => NULL,
-    'exposed' => array(
-      'sort_by' => NULL,
-      'sort_order' => NULL,
-    ),
-    'use_pager' => NULL,
-    'pager_id' => NULL,
-    'offset' => NULL,
-    'link_to_view' => NULL,
-    'more_link' => NULL,
-    'path' => NULL,
+    'override_title' => '',
+    'override_title_text' => '',
+    'override_title_heading' => 'h2',
     'view_settings' => 'fields',
     'header_type' => 'none',
+    'view_mode' => 'teaser',
+    'widget_title' => 'Upcoming shows',
   );
   $pane->cache = array();
   $pane->style = array(
     'settings' => array(
-      'hide_classes' => array(
-        'hidden-xs' => 0,
-        'hidden-sm' => 0,
-        'hidden-md' => 0,
-        'hidden-lg' => 0,
-      ),
-      'additional_classes' => array(
-        'pull-left' => 0,
-        'pull-right' => 0,
-        'clearfix' => 0,
-      ),
+      'modifier_class' => '',
+      'hide_classes' => array(),
+      'additional_classes' => array(),
+      'collapsible' => FALSE,
+      'collapsed' => '',
+      'region_title' => '',
     ),
     'style' => 'bootstrap_styles:well',
   );
@@ -212,9 +202,9 @@ function openproducer_core_default_page_manager_pages() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = 'b4c65d69-2633-41dd-8df2-3b651a49564c';
-  $display->content['new-b4c65d69-2633-41dd-8df2-3b651a49564c'] = $pane;
-  $display->panels['column2'][0] = 'new-b4c65d69-2633-41dd-8df2-3b651a49564c';
+  $pane->uuid = '182ef8dc-f638-4434-b395-f0ab908ab4a4';
+  $display->content['new-182ef8dc-f638-4434-b395-f0ab908ab4a4'] = $pane;
+  $display->panels['column2'][0] = 'new-182ef8dc-f638-4434-b395-f0ab908ab4a4';
   $pane = new stdClass();
   $pane->pid = 'new-98392514-52c6-410e-a43b-a0f867c7770e';
   $pane->panel = 'column2';
