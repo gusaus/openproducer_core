@@ -120,7 +120,7 @@ function openproducer_core_menu_default_menu_links() {
   $menu_links['management_panopoly:admin/panopoly'] = array(
     'menu_name' => 'management',
     'link_path' => 'admin/panopoly',
-    'router_path' => 'admin/panopoly',
+    'router_path' => 'admin',
     'link_title' => 'Panopoly',
     'options' => array(
       'attributes' => array(
@@ -181,6 +181,7 @@ function openproducer_core_menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'management_administration:admin',
   );
+
   // Translatables
   // Included for use with string extractors like potx.
   t('Administration');
@@ -191,7 +192,6 @@ function openproducer_core_menu_default_menu_links() {
   t('Panopoly');
   t('Site information');
   t('Web services');
-
 
   return $menu_links;
 }
