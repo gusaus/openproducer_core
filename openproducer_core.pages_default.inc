@@ -90,23 +90,10 @@ function openproducer_core_default_page_manager_pages() {
       'middle' => NULL,
       'secondcolumn1' => NULL,
       'secondcolumn2' => NULL,
-      'footer' => array(
-        'region_title' => '',
-        'hide_classes' => array(
-          'hidden-xs' => 0,
-          'hidden-sm' => 0,
-          'hidden-md' => 0,
-          'hidden-lg' => 0,
-        ),
-        'additional_classes' => array(
-          'clearfix' => 'clearfix',
-          'pull-left' => 0,
-          'pull-right' => 0,
-        ),
-      ),
+      'footer' => NULL,
     ),
     'footer' => array(
-      'style' => 'bootstrap_styles:well',
+      'style' => '0',
     ),
   );
   $display->cache = array();
@@ -274,6 +261,7 @@ function openproducer_core_default_page_manager_pages() {
   $pane->cache = array();
   $pane->style = array(
     'style' => 'default',
+    'settings' => NULL,
   );
   $pane->css = array();
   $pane->extras = array();
