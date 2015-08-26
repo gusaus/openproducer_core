@@ -148,7 +148,7 @@ function openproducer_core_default_page_manager_pages() {
   $display->content['new-fc4506c2-b0de-4780-b526-a394c6d06e35'] = $pane;
   $display->panels['column1'][0] = 'new-fc4506c2-b0de-4780-b526-a394c6d06e35';
   $pane = new stdClass();
-  $pane->pid = 'new-182ef8dc-f638-4434-b395-f0ab908ab4a4';
+  $pane->pid = 'new-24a6d8bb-8b4d-47e1-ab36-e03c5f4c7a10';
   $pane->panel = 'column2';
   $pane->type = 'views_panes';
   $pane->subtype = 'events-panel_pane_3';
@@ -158,9 +158,10 @@ function openproducer_core_default_page_manager_pages() {
     'more_link' => 1,
     'items_per_page' => '3',
     'fields_override' => array(
-      'title' => 1,
-      'field_event_date' => 1,
-      'field_event_venue' => 1,
+      'field_featured_image' => 1,
+      'title' => 0,
+      'field_event_date' => 0,
+      'field_event_venue' => 0,
       'field_event_city' => 0,
       'field_event_state' => 0,
       'nothing' => 1,
@@ -189,9 +190,9 @@ function openproducer_core_default_page_manager_pages() {
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $pane->uuid = '182ef8dc-f638-4434-b395-f0ab908ab4a4';
-  $display->content['new-182ef8dc-f638-4434-b395-f0ab908ab4a4'] = $pane;
-  $display->panels['column2'][0] = 'new-182ef8dc-f638-4434-b395-f0ab908ab4a4';
+  $pane->uuid = '24a6d8bb-8b4d-47e1-ab36-e03c5f4c7a10';
+  $display->content['new-24a6d8bb-8b4d-47e1-ab36-e03c5f4c7a10'] = $pane;
+  $display->panels['column2'][0] = 'new-24a6d8bb-8b4d-47e1-ab36-e03c5f4c7a10';
   $pane = new stdClass();
   $pane->pid = 'new-98392514-52c6-410e-a43b-a0f867c7770e';
   $pane->panel = 'column2';
@@ -261,7 +262,6 @@ function openproducer_core_default_page_manager_pages() {
   $pane->cache = array();
   $pane->style = array(
     'style' => 'default',
-    'settings' => NULL,
   );
   $pane->css = array();
   $pane->extras = array();
@@ -296,15 +296,8 @@ function openproducer_core_default_page_manager_pages() {
   );
   $pane->cache = array();
   $pane->style = array(
-    'settings' => array(
-      'modifier_class' => '',
-      'hide_classes' => array(),
-      'additional_classes' => array(),
-      'collapsible' => FALSE,
-      'collapsed' => '',
-      'region_title' => '',
-    ),
-    'style' => 'bootstrap_styles:jumbotron',
+    'style' => 'default',
+    'settings' => NULL,
   );
   $pane->css = array();
   $pane->extras = array();

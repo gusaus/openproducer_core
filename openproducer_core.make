@@ -49,9 +49,6 @@ projects[rules_linkevent][subdir] = contrib
 projects[soundmanager2][version] = 2.0-beta1
 projects[soundmanager2][subdir] = contrib
 
-projects[views_bootstrap][version] = 3.x-dev
-projects[views_bootstrap][subdir] = contrib
-
 
 
 

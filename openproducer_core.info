@@ -33,7 +33,6 @@ dependencies[] = rules_linkevent
 dependencies[] = strongarm
 dependencies[] = system
 datestamp = 1396340893
-features[context][] = footer
 features[ctools][] = context:context:3
 features[ctools][] = page_manager:pages_default:1
 features[ctools][] = strongarm:strongarm:1
@@ -100,6 +99,6 @@ features[variable][] = rules_event_whitelist
 features[variable][] = rules_linkevent
 features[variable][] = theme_openproducer_bootstrap_settings
 
-version = "7.x-1.0-beta25"
+version = "7.x-1.0-beta26"
 core = "7.x"
 project = "openproducer_core"
