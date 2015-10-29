@@ -43,6 +43,9 @@ projects[panels_bootstrap_styles][subdir] = contrib
 projects[plupload][version] = 1.x-dev
 projects[plupload][subdir] = contrib
 
+projects[radix_colorizer][version] = 1.x-dev
+projects[radix_colorizer][subdir] = contrib
+
 projects[role_export][version] = 1.x-dev
 projects[role_export][subdir] = contrib
 
