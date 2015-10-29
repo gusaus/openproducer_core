@@ -10,7 +10,7 @@ projects[better_formats][subdir] = contrib
 projects[calendar][version] = 3.5
 projects[calendar][subdir] = contrib
 
-projects[colorbox][version] = 2.x-dev
+projects[colorbox][version] = 2.1
 projects[colorbox][subdir] = contrib
 
 projects[context][version] = 3.6
