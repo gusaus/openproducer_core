@@ -10,11 +10,17 @@ projects[better_formats][subdir] = contrib
 projects[calendar][version] = 3.5
 projects[calendar][subdir] = contrib
 
-projects[colorbox][version] = 2.1
+projects[colorbox][version] = 2.x-dev
 projects[colorbox][subdir] = contrib
+
+projects[colorizer][version] = 1.7
+projects[colorizer][subdir] = contrib
 
 projects[context][version] = 3.6
 projects[context][subdir] = contrib
+
+projects[dynamic_background][version] = 2.x-dev
+projects[dynamic_background][subdir] = contrib
 
 projects[entity_view_mode][version] = 1.0-rc1
 projects[entity_view_mode][subdir] = contrib

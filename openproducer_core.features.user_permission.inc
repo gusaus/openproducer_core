@@ -35,6 +35,7 @@ function openproducer_core_user_default_permissions() {
     'name' => 'access media browser',
     'roles' => array(
       'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
       'editor' => 'editor',
     ),
     'module' => 'media',
@@ -89,184 +90,6 @@ function openproducer_core_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: 'administer panelizer node album content'.
-  $permissions['administer panelizer node album content'] = array(
-    'name' => 'administer panelizer node album content',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer node album layout'.
-  $permissions['administer panelizer node album layout'] = array(
-    'name' => 'administer panelizer node album layout',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer node event content'.
-  $permissions['administer panelizer node event content'] = array(
-    'name' => 'administer panelizer node event content',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer node event layout'.
-  $permissions['administer panelizer node event layout'] = array(
-    'name' => 'administer panelizer node event layout',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer node news content'.
-  $permissions['administer panelizer node news content'] = array(
-    'name' => 'administer panelizer node news content',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer node news layout'.
-  $permissions['administer panelizer node news layout'] = array(
-    'name' => 'administer panelizer node news layout',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer node panopoly_page breadcrumbs'.
-  $permissions['administer panelizer node panopoly_page breadcrumbs'] = array(
-    'name' => 'administer panelizer node panopoly_page breadcrumbs',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer node panopoly_page content'.
-  $permissions['administer panelizer node panopoly_page content'] = array(
-    'name' => 'administer panelizer node panopoly_page content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer node panopoly_page context'.
-  $permissions['administer panelizer node panopoly_page context'] = array(
-    'name' => 'administer panelizer node panopoly_page context',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer node panopoly_page defaults'.
-  $permissions['administer panelizer node panopoly_page defaults'] = array(
-    'name' => 'administer panelizer node panopoly_page defaults',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer node panopoly_page layout'.
-  $permissions['administer panelizer node panopoly_page layout'] = array(
-    'name' => 'administer panelizer node panopoly_page layout',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer node panopoly_page overview'.
-  $permissions['administer panelizer node panopoly_page overview'] = array(
-    'name' => 'administer panelizer node panopoly_page overview',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer node panopoly_page settings'.
-  $permissions['administer panelizer node panopoly_page settings'] = array(
-    'name' => 'administer panelizer node panopoly_page settings',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer node photoset content'.
-  $permissions['administer panelizer node photoset content'] = array(
-    'name' => 'administer panelizer node photoset content',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer node photoset layout'.
-  $permissions['administer panelizer node photoset layout'] = array(
-    'name' => 'administer panelizer node photoset layout',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer node track content'.
-  $permissions['administer panelizer node track content'] = array(
-    'name' => 'administer panelizer node track content',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer node track layout'.
-  $permissions['administer panelizer node track layout'] = array(
-    'name' => 'administer panelizer node track layout',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer node video content'.
-  $permissions['administer panelizer node video content'] = array(
-    'name' => 'administer panelizer node video content',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'panelizer',
-  );
-
-  // Exported permission: 'administer panelizer node video layout'.
-  $permissions['administer panelizer node video layout'] = array(
-    'name' => 'administer panelizer node video layout',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'panelizer',
-  );
-
   // Exported permission: 'administer site configuration'.
   $permissions['administer site configuration'] = array(
     'name' => 'administer site configuration',
@@ -295,6 +118,26 @@ function openproducer_core_user_default_permissions() {
       'editor' => 'editor',
     ),
     'module' => 'path',
+  );
+
+  // Exported permission: 'dynamic background upload default'.
+  $permissions['dynamic background upload default'] = array(
+    'name' => 'dynamic background upload default',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+    ),
+    'module' => 'dynamic_background',
+  );
+
+  // Exported permission: 'dynamic background upload node'.
+  $permissions['dynamic background upload node'] = array(
+    'name' => 'dynamic background upload node',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+    ),
+    'module' => 'dynamic_background',
   );
 
   // Exported permission: 'show format selection for node'.
@@ -332,6 +175,16 @@ function openproducer_core_user_default_permissions() {
     'name' => 'use text format full_html',
     'roles' => array(
       'administrator' => 'administrator',
+    ),
+    'module' => 'filter',
+  );
+
+  // Exported permission: 'use text format php_code'.
+  $permissions['use text format php_code'] = array(
+    'name' => 'use text format php_code',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'filter',
   );
