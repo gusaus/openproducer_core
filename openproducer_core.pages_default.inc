@@ -176,15 +176,20 @@ function openproducer_core_default_page_manager_pages() {
   );
   $pane->cache = array();
   $pane->style = array(
-    'settings' => array(
-      'modifier_class' => '',
-      'hide_classes' => array(),
-      'additional_classes' => array(),
-      'collapsible' => FALSE,
-      'collapsed' => '',
-      'region_title' => '',
-    ),
     'style' => 'bootstrap_styles:well',
+    'settings' => array(
+      'hide_classes' => array(
+        'hidden-xs' => 0,
+        'hidden-sm' => 0,
+        'hidden-md' => 0,
+        'hidden-lg' => 0,
+      ),
+      'additional_classes' => array(
+        'pull-left' => 0,
+        'pull-right' => 0,
+        'clearfix' => 0,
+      ),
+    ),
   );
   $pane->css = array();
   $pane->extras = array();
@@ -261,7 +266,15 @@ function openproducer_core_default_page_manager_pages() {
   );
   $pane->cache = array();
   $pane->style = array(
-    'style' => 'default',
+    'style' => 'bootstrap_styles:well',
+    'settings' => array(
+      'modifier_class' => '',
+      'hide_classes' => array(),
+      'additional_classes' => array(),
+      'collapsible' => FALSE,
+      'collapsed' => '',
+      'region_title' => '',
+    ),
   );
   $pane->css = array();
   $pane->extras = array();
@@ -270,6 +283,56 @@ function openproducer_core_default_page_manager_pages() {
   $pane->uuid = 'fb6e2b71-b8a8-4ae1-a6e1-64aea74c2663';
   $display->content['new-fb6e2b71-b8a8-4ae1-a6e1-64aea74c2663'] = $pane;
   $display->panels['footer'][0] = 'new-fb6e2b71-b8a8-4ae1-a6e1-64aea74c2663';
+  $pane = new stdClass();
+  $pane->pid = 'new-7cfe4dc2-f5b3-4121-a3bf-8c7feb5c2c23';
+  $pane->panel = 'header';
+  $pane->type = 'fieldable_panels_pane';
+  $pane->subtype = 'uuid:a14393f3-cb4b-4258-9aa9-1c49f0486831';
+  $pane->shown = TRUE;
+  $pane->access = array();
+  $pane->configuration = array(
+    'view_mode' => 'full',
+    'fieldable_panels_pane' => (object) array(
+      'bundle' => 'widgets',
+      'language' => 'und',
+      'is_new' => TRUE,
+      'title' => 'List',
+      'link' => 0,
+      'path' => '',
+      'reusable' => 0,
+      'admin_title' => '',
+      'admin_description' => '',
+      'category' => 'Reusable Content',
+      'vid' => '1',
+      'current_vid' => '',
+      'revision' => 1,
+      'fpid' => '1',
+      'field_widget' => array(
+        'und' => array(
+          0 => array(
+            'value' => '<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/90622155&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>',
+            'format' => 'php_code',
+          ),
+        ),
+      ),
+      'log' => '',
+      'created' => 1441955544,
+      'timestamp' => 1441955544,
+      'changed' => 1441955544,
+      'uuid' => 'a14393f3-cb4b-4258-9aa9-1c49f0486831',
+      'vuuid' => '562968f7-eeef-429e-be6d-2ba7be5576c8',
+      'uid' => '1',
+    ),
+  );
+  $pane->cache = array();
+  $pane->style = array();
+  $pane->css = array();
+  $pane->extras = array();
+  $pane->position = 0;
+  $pane->locks = array();
+  $pane->uuid = '7cfe4dc2-f5b3-4121-a3bf-8c7feb5c2c23';
+  $display->content['new-7cfe4dc2-f5b3-4121-a3bf-8c7feb5c2c23'] = $pane;
+  $display->panels['header'][0] = 'new-7cfe4dc2-f5b3-4121-a3bf-8c7feb5c2c23';
   $pane = new stdClass();
   $pane->pid = 'new-2f7e8ec5-14be-4c4f-a820-dd5435994ff5';
   $pane->panel = 'header';
@@ -296,16 +359,28 @@ function openproducer_core_default_page_manager_pages() {
   );
   $pane->cache = array();
   $pane->style = array(
-    'style' => 'default',
-    'settings' => NULL,
+    'style' => 'bootstrap_styles:jumbotron',
+    'settings' => array(
+      'hide_classes' => array(
+        'hidden-xs' => 0,
+        'hidden-sm' => 0,
+        'hidden-md' => 0,
+        'hidden-lg' => 0,
+      ),
+      'additional_classes' => array(
+        'pull-left' => 0,
+        'pull-right' => 0,
+        'clearfix' => 0,
+      ),
+    ),
   );
   $pane->css = array();
   $pane->extras = array();
-  $pane->position = 0;
+  $pane->position = 1;
   $pane->locks = array();
   $pane->uuid = '2f7e8ec5-14be-4c4f-a820-dd5435994ff5';
   $display->content['new-2f7e8ec5-14be-4c4f-a820-dd5435994ff5'] = $pane;
-  $display->panels['header'][0] = 'new-2f7e8ec5-14be-4c4f-a820-dd5435994ff5';
+  $display->panels['header'][1] = 'new-2f7e8ec5-14be-4c4f-a820-dd5435994ff5';
   $pane = new stdClass();
   $pane->pid = 'new-01bf7cce-3eb2-49c0-b8f4-cd0bd9f92ab0';
   $pane->panel = 'secondcolumn1';

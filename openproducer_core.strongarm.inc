@@ -13,6 +13,29 @@ function openproducer_core_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'dynamic_background_node';
+  $strongarm->value = array(
+    'settings' => array(
+      'content_types' => array(
+        'event' => 'event',
+        'album' => 'album',
+        'track' => 'track',
+        'news' => 'news',
+        'photoset' => 'photoset',
+        'video' => 'video',
+        'panopoly_landing_page' => 'panopoly_landing_page',
+        'panopoly_page' => 'panopoly_page',
+      ),
+    ),
+    'upload' => array(
+      'no_of_images' => '1',
+    ),
+  );
+  $export['dynamic_background_node'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'file_entity_file_upload_wizard_skip_fields';
   $strongarm->value = 1;
   $export['file_entity_file_upload_wizard_skip_fields'] = $strongarm;
@@ -567,28 +590,9 @@ function openproducer_core_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'rules_event_whitelist';
+  $strongarm->name = 'theme_openproducer_radix_settings';
   $strongarm->value = array(
-    'rules_linkevent_design_mode' => 0,
-    'rules_linkevent_edit_mode' => 1,
-  );
-  $export['rules_event_whitelist'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'rules_linkevent';
-  $strongarm->value = 'design_mode|designer|Design mode
-
-edit_mode|editor|Edit mode';
-  $export['rules_linkevent'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'theme_openproducer_bootstrap_settings';
-  $strongarm->value = array(
-    'toggle_logo' => 1,
+    'toggle_logo' => 0,
     'toggle_name' => 1,
     'toggle_slogan' => 1,
     'toggle_node_user_picture' => 1,
@@ -604,11 +608,11 @@ edit_mode|editor|Edit mode';
     'favicon_path' => '',
     'favicon_upload' => '',
     'copyright' => array(
-      'value' => '<p>Powered by openproducer and Panopoly</p>',
+      'value' => '<p>Powered by OpenProducer</p>',
       'format' => 'panopoly_wysiwyg_text',
     ),
   );
-  $export['theme_openproducer_bootstrap_settings'] = $strongarm;
+  $export['theme_openproducer_radix_settings'] = $strongarm;
 
   return $export;
 }
