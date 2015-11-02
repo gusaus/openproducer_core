@@ -17,6 +17,7 @@ dependencies[] = file_entity
 dependencies[] = filter
 dependencies[] = flexslider_views
 dependencies[] = media
+dependencies[] = media_bulk_upload
 dependencies[] = media_internet
 dependencies[] = menu
 dependencies[] = multiform
